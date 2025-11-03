@@ -58,7 +58,7 @@ Instagram Web → Content Script → Background Service Worker
 ---
 
 ## 📂 Project Structure
-
+```
 Guardian/
 │
 ├── extension/
@@ -73,7 +73,7 @@ Guardian/
 │ ├── predict.py
 │ ├── server.py
 │ └── train_model.py
-
+```
 ---
 
 ## 🛠️ Setup Instructions
