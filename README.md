@@ -1,4 +1,4 @@
-# 🛡️ Guardian – AI-Powered Instagram DM Safety Extension  
+# 🛡️ Guardian – Tool for preotection against social media creeps
 Protecting users from creepy, abusive, and harmful Instagram messages using AI.
 
 ---
@@ -66,12 +66,12 @@ Guardian/
 │ ├── content.js
 │ ├── background.js
 │ └── popup.html
-|
-├── ml model/
+│
+├── ml-model/
 │ ├── models_balanced/
 │ ├── dataset.csv
 │ ├── predict.py
-│ └── server.py
+│ ├── server.py
 │ └── train_model.py
 
 ---
