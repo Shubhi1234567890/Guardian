@@ -26,12 +26,12 @@ Privacy-first: No cloud storage. No data leaks. Local inference only.
 ## 🧠 AI Capabilities  
 The ML model classifies messages into:
 
-- ✅ Safe / Friendly  
-- ⚠️ Creepy / uncomfortable tone  
-- 🚨 Stalker vibes / obsessive tone  
+- ✅ Safe 
+- ⚠️ Creepy flirt 
+- 🚨 Stalker behaviour 
 - ❗ Mild harassment  
 - ❗❗ Medium harassment  
-- ❗❗❗ Strong / explicit harassment  
+- ❗❗❗ Severe harassment  
 
 Trained on custom curated DM harassment dataset.
 
