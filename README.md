@@ -1,4 +1,4 @@
-# 🛡️ Guardian – Tool for preotection against social media creeps
+# 🛡️ Guardian – Tool for protection against social media creeps
 Protecting users from creepy, abusive, and harmful Instagram messages using AI.
 
 ---
