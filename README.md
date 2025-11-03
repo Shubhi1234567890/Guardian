@@ -147,11 +147,19 @@ http://127.0.0.1:8000
 ---
 Extension
 <br>
-<div style="text-align:center;">
+<div style="display: flex; justify-content: center; gap: 20px; align-items: center;">
+  
   <img src="Screenshot 2025-11-01 012736.png" 
-       alt="Guardian demo" 
+       alt="Guardian demo 1" 
        style="max-width:300px; width:40%; height:auto; border-radius:10px;">
+       
+received dms classified into different categories
+  <img src="Screenshot 2025-11-03 122143.png" 
+       alt="Guardian demo 2" 
+       style="max-width:300px; width:40%; height:auto; border-radius:10px;">
+
 </div>
+
 <br>
 
 Warning
