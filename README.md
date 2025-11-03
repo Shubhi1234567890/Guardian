@@ -11,7 +11,29 @@ It reads messages from the Instagram web interface, classifies them using a cust
 Privacy-first: No cloud storage. No data leaks. Local inference only.
 
 ---
+## 🧠 Core Idea
 
+✅ Read Instagram DM messages automatically
+
+✅ Use an ML model to classify messages as safe / harassment / creepy / abusive
+
+✅ Track strikes per sender
+
+✅ After 4 abusive messages, hide the sender and alert the user
+
+✅ User can unhide anytime
+
+---
+## 📂 System Components
+```
+| Component             | Purpose                                                    |
+| --------------------- | ---------------------------------------------------------- |
+| Dataset (CSV)         | Collected DM text + harassment labels                      |
+| ML Model (DistilBERT) | Trained to detect abusive text                             |
+| FastAPI Server        | Serves the model on localhost                              |
+| Chrome Extension      | Reads DMs, sends text to ML API, hides users after strikes |
+```
+---
 ## 🎯 Features
 
 ✅ Real-time scanning of Instagram DMs | Detects new messages instantly  
@@ -75,6 +97,40 @@ Guardian/
 │ └── train_model.py
 ```
 ---
+
+---
+## ⚙️ How I Built It (Step-By-Step)
+
+```
+1. Made dataset with text + labels (safe, harassment types, creepy flirt, etc.)
+
+2. Cleaned & balanced dataset to avoid model bias
+
+3. Fine-tuned DistilBERT model using HuggingFace Trainer
+
+4. Saved final model in models_balanced/final/
+
+5. Created FastAPI server to return predictions for text
+
+6. Built Chrome Extension with:
+
+content.js → reads Instagram messages from DOM
+background.js → calls ML server & manages strikes
+popup.html → shows hidden users + unhide button
+
+7. Added logic:
+1st–3rd offensive messages → only counted
+4th message → show alert + hide sender
+
+8. Stored strike counts using chrome.storage so it stays even after refresh
+```
+
+## Tools Used
+
+Python, HuggingFace Transformers
+FastAPI
+Chrome Extension (Manifest V3)
+JavaScript, HTML
 
 ## 🛠️ Setup Instructions
 
