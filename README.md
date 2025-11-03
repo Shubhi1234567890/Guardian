@@ -164,6 +164,7 @@ Warning
 </div>
 
 <br>
+
 received dms classified into different categories
 <br>
 <div style="text-align:center;">
@@ -173,6 +174,7 @@ received dms classified into different categories
 </div>
 
 <br>
+
 harassing text
 <br>
 <div style="text-align:center;">
