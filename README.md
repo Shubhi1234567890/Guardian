@@ -153,6 +153,7 @@ Extension
        style="max-width:300px; width:40%; height:auto; border-radius:10px;">
 </div>
 <br>
+
 Warning
 <br>
 <div style="text-align:center;">
@@ -160,6 +161,7 @@ Warning
        alt="Guardian demo" 
        style="max-width:300px; width:40%; height:auto; border-radius:10px;">
 </div>
+
 
 
 
