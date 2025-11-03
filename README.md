@@ -48,13 +48,13 @@ Storage -> Chrome Local Storage
 ---
 
 ## 🧠 System Architecture
-
+```
 Instagram Web → Content Script → Background Service Worker
         ↓                                 ↓
   Detected Text                 Sends to ML Inference API
         ↓                                 ↓
    Highlight Message ← Receive Classification
-
+```
 ---
 
 ## 📂 Project Structure
