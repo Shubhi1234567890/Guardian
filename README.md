@@ -152,9 +152,8 @@ Extension
   <img src="Screenshot 2025-11-01 012736.png" 
        alt="Guardian demo 1" 
        style="max-width:300px; width:40%; height:auto; border-radius:10px;">
-       
-received dms classified into different categories
-  <img src="Screenshot 2025-11-03 122143.png" 
+
+  <img src="Screenshot 2025-11-03 155240.png.png" 
        alt="Guardian demo 2" 
        style="max-width:300px; width:40%; height:auto; border-radius:10px;">
 
