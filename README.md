@@ -148,7 +148,7 @@ http://127.0.0.1:8000
 Extension
 <br>
 <div align="center">
-  <img src="Screenshot 2025-11-01 012736.png" alt="Guardian demo" style="max-width:70%;height:auto;">
+  <img src="Screenshot 2025-11-01 012736.png" alt="Guardian demo" style="max-width:40%;height:auto;">
 </div>
 
 
