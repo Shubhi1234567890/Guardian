@@ -147,16 +147,10 @@ http://127.0.0.1:8000
 ---
 Extension
 <br>
-<div style="display: flex; justify-content: center; gap: 20px; align-items: center;">
-  
+<div style="text-align:center;">
   <img src="Screenshot 2025-11-01 012736.png" 
-       alt="Guardian demo 1" 
+       alt="Guardian demo" 
        style="max-width:300px; width:40%; height:auto; border-radius:10px;">
-
-  <img src="Screenshot 2025-11-03 155240.png.png" 
-       alt="Guardian demo 2" 
-       style="max-width:300px; width:40%; height:auto; border-radius:10px;">
-
 </div>
 
 <br>
@@ -168,6 +162,17 @@ Warning
        alt="Guardian demo" 
        style="max-width:300px; width:40%; height:auto; border-radius:10px;">
 </div>
+
+<br>
+received dms classified into different categories
+<div style="text-align:center;">
+  <img src="Screenshot 2025-11-03 155240.png" 
+       alt="Guardian demo" 
+       style="max-width:300px; width:40%; height:auto; border-radius:10px;">
+</div>
+
+<br>
+
 
 
 
