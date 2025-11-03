@@ -132,6 +132,7 @@ FastAPI
 Chrome Extension (Manifest V3)
 JavaScript, HTML
 
+---
 ## 🛠️ Setup Instructions
 
 ### 🧩 Install Extension
